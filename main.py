@@ -1,7 +1,11 @@
 import random
 import requests
 from bs4 import BeautifulSoup
+<<<<<<< HEAD
 #Changes arun-6
+=======
+# Change anju-6
+>>>>>>> cc9259cc35923e53719b0d3f7bf9e861f533588a
 # crawl IMDB Top 250 and randomly select a movie
 
 URL = 'http://www.imdb.com/chart/top'
@@ -40,6 +44,10 @@ def main():
         if user_input != 'y':
             break"""
 
+<<<<<<< HEAD
 #Changes arun-7
+=======
+# Change anju-7
+>>>>>>> cc9259cc35923e53719b0d3f7bf9e861f533588a
 if __name__ == '__main__':
     main()
