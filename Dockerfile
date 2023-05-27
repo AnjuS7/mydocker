@@ -1,9 +1,10 @@
+#Changes arun-1
 # Change anju-1
 FROM python:3.8
-# Change anju-2
 ADD main.py .
-# Change anju-3
+#Changes arun-3
 RUN pip install requests beautifulsoup4
+#Changes arun-4
 # Change anju-4
 CMD ["python","./main.py"]
-# Change anju-5
+#Changes arun-5
